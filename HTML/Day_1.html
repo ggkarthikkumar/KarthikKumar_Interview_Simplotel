@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Food</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom, #fdd6f4, #c3d7ff);
+        color: #fff5b0;
+      }
+      nav {
+        background-color: #ff8080;
+        overflow: hidden;
+      }
+      nav a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        margin-right: 170px;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      nav a:hover {
+        background-color: #ddd;
+        color: #444;
+      }
+      .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        color: #333;
+        padding: 20px;
+        background: linear-gradient(to bottom, #fdd6f4, #c3d7ff);
+      }
+      .banner img {
+        width: 50%;
+        height: auto;
+        margin-left: 20px;
+      }
+      .banner-text {
+        font-size: 48px;
+        padding: 20px;
+        font-weight: bold;
+      }
+      .content {
+        padding: 40px;
+        text-align: left;
+        background-color: black;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .content h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      .content p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        color: #666;
+      }
+      .button {
+        background-color: #ff8177;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .button:hover {
+        background-color: #e64a19;
+      }
+      .image-section {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+      }
+      .image-section .images img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+      .image-section .text-box {
+        background-color: #ff8177;
+        padding: 40px;
+        color: black;
+        text-align: left;
+        height: 150px;
+        width: 500px;
+        margin-right: 300px;
+        margin-top: 200px;
+      }
+      .image-section .text-box h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#home"><b>Home</b></a>
+      <a href="#order"><b>Order</b></a>
+      <a href="#food"><b>Food</b></a>
+      <a href="#restaurant"><b>Restaurant</b></a>
+      <a href="#testimonials"><b>Testimonials</b></a>
+      <a href="#contact"><b>Contact Us</b></a>
+      <img src="menu-bar.png" width="35" height="35" style="padding: 8px" />
+    </nav>
+
+    <div class="banner">
+      <div class="banner-text">
+        <h4>LOREM IPSUM</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id
+          est vitae dolor rhoncus tristique. Maecenas metus quam, rhoncus
+          euismod lorem in, sollicitudin viverra eros.
+        </p>
+        <button class="button">Click Me</button>
+      </div>
+      <img
+        src="burger1.jpg"
+        style="height: 1000px; margin: -20px -20px"
+        alt="Burger Image"
+      />
+    </div>
+
+    <div class="image-section">
+      <div class="images">
+        <table>
+          <tr>
+            <td>
+              <img
+                src="k image 4.jpg"
+                style="width: 400px; height: 250px; padding: 18px"
+              />
+            </td>
+            <td rowspan="2">
+              <img
+                src="k image 3.jpg"
+                style="width: 350px; height: 570px; padding: 18px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="k image 2.jpg"
+                style="width: 400px; height: 250px; padding: 18px"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="text-box">
+        <h4>LOREM IPSUM</h4>
+        <h1 style="font-weight: bold">
+          LOREM IPSUM <br />
+          SET ADEMIT
+        </h1>
+        <h4>Click</h4>
+      </div>
+    </div>
+  </body>
+</html>
